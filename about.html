@@ -1,29 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-   <style>
-        html,body{
-            width: 100%;
-            height: 100%;
-            margin: 0px;
-            overflow-x: hidden;
-        }
+  <head>
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        overflow-x: hidden;
+      }
     </style>
-    
+
     <!-- Required meta tags link Start Here -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Hello! I'm Jahidul Islam. I'm a Web Developer">
-    <meta name="author" content="Jahidul Islam">
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="Hello! I'm Shamima Haque. I'm a Web Developer"
+    />
+    <meta name="author" content="Shamima Haque" />
     <!-- Required meta tags link End Here -->
 
     <!-- Bootstrap CSS link  Start Here-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- Bootstrap CSS link End Here -->
 
     <!-- Fontawesome link Start Here   -->
-    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css" />
     <!-- Fontawesome link End Here   -->
 
     <!--    Favicon link Start Here-->
@@ -32,373 +38,478 @@
     <!--    Favicon link End Here-->
 
     <!--Custom CSS link Start Here-->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <!--Custom CSS link End Here-->
 
     <title>About - Shamima Haque</title>
-</head>
+  </head>
 
-<body onload="myFunction()">
+  <body onload="myFunction()">
+    <!--Preloader Starts Here-->
+    <div id="loading"></div>
+    <!--Preloader Ends Here-->
 
-<!--Preloader Starts Here-->
-<div id="loading"></div>
-<!--Preloader Ends Here-->
-
-<!--Header Starts Here-->
-<header>
-    <div class="container">
+    <!--Header Starts Here-->
+    <header>
+      <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand logo" href="index.html">
-            <img src="images/logo.png" alt="logo">
-        </a>
-        
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+          <a class="navbar-brand logo" href="index.html">
+            <img src="images/logo.png" alt="logo" />
+          </a>
 
-  <div class="collapse navbar-collapse menu" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="about.html">About</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="services.html">Services</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="portfolio.html">Portfolio</a>
-      </li>
-       <li class="nav-item">
-        <a class="nav-link" href="contact.html">Contact</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-    </div>
-</header>
-<!--Header Ends Here-->
- 
-<!--Page Title Starts Here--> 
-<div class="container section-padding">
-    <div class="row">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse menu"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--Header Ends Here-->
+
+    <!--Page Title Starts Here-->
+    <div class="container section-padding">
+      <div class="row">
         <div class="col-md-12 page-title">
-            <h3>ABOUT ME</h3>
+          <h3>ABOUT ME</h3>
         </div>
+      </div>
     </div>
-</div>
-<!--Page Title Ends Here--> 
+    <!--Page Title Ends Here-->
 
-    
-<!--About-Me Starts Here--> 
-<div class="container about">
-    <div class="row">
+    <!--About-Me Starts Here-->
+    <div class="container about">
+      <div class="row">
         <div class="col-md-4 about-img">
-            <img src="images/profile.jpg" alt="profile" class="img-fluid">
+          <img src="images/profile.jpg" alt="profile" class="img-fluid" />
         </div>
-        
+
         <div class="col-md-8 about-content">
-<ul class="nav nav-pills  about-tab" id="pills-tab" role="tablist">
-  <li class="nav-item about-item">
-    <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Profile</a>
-  </li>
-  <li class="nav-item about-item">
-    <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Skills</a>
-  </li>
-  <li class="nav-item about-item">
-    <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-  </li>
-</ul>
+          <ul class="nav nav-pills about-tab" id="pills-tab" role="tablist">
+            <li class="nav-item about-item">
+              <a
+                class="nav-link active"
+                id="pills-home-tab"
+                data-toggle="pill"
+                href="#pills-home"
+                role="tab"
+                aria-controls="pills-home"
+                aria-selected="true"
+              >
+                Profile
+              </a>
+            </li>
+            <li class="nav-item about-item">
+              <a
+                class="nav-link"
+                id="pills-profile-tab"
+                data-toggle="pill"
+                href="#pills-profile"
+                role="tab"
+                aria-controls="pills-profile"
+                aria-selected="false"
+              >
+                Skills
+              </a>
+            </li>
+            <li class="nav-item about-item">
+              <a
+                class="nav-link"
+                id="pills-contact-tab"
+                data-toggle="pill"
+                href="#pills-contact"
+                role="tab"
+                aria-controls="pills-contact"
+                aria-selected="false"
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
 
-<div class="tab-content" id="pills-tabContent">
+          <div class="tab-content" id="pills-tabContent">
+            <!--Tab-One Starts Here-->
+            <div
+              class="tab-pane fade show active tab-detail"
+              id="pills-home"
+              role="tabpanel"
+              aria-labelledby="pills-home-tab"
+            >
+              <h1 class="pt-25">Shamima Haque</h1>
+              <p>
+                I'm working as a web developer with more than 3years of
+                experience of Local and International online marketplace leading
+                website design projects, for the customers. This year, I've
+                joined an IT firm named Novus Interactive. Besides, I'm training
+                some students under my sector for 2 months. I'm focused on
+                creating clean, robust code with exceptional security and also
+                able to achieve compatibility targets.
+              </p>
+              <p>
+                I'm working as a web developer with more than 3years of
+                experience of Local and International online marketplace leading
+                website design projects, for the customers. This year, I've
+                joined an IT firm named Novus Interactive. Besides, I'm training
+                some students under my sector for 2 months. I'm focused on
+                creating clean, robust code with exceptional security and also
+                able to achieve compatibility targets.
+              </p>
 
-<!--Tab-One Starts Here-->
-  <div class="tab-pane fade show active tab-detail" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-     
-     <h1 class="pt-25">Jahidul Islam</h1>
-      <p>
-         I'm working as a front-end web developer with more than 3years
-         of experience of Local and International online marketplace
-         leading website design projects, for the customers. This year, I've
-         joined an IT firm named Novus Interactive. Besides, I'm training
-         some students under my sector for 2 months. I'm focused on
-         creating clean, robust code with exceptional security and also able
-         to achieve compatibility targets. 
-      </p>
-      <p>
-         I'm working as a front-end web developer with more than 3years
-         of experience of Local and International online marketplace
-         leading website design projects, for the customers. This year, I've
-         joined an IT firm named Novus Interactive. Besides, I'm training
-         some students under my sector for 2 months. I'm focused on
-         creating clean, robust code with exceptional security and also able
-         to achieve compatibility targets. 
-      </p>
-      
-      <a href="images/resume.pdf" target="_blank"><button type="button" class="main-button">My Resume</button></a>
-     
-     <!-- Button trigger modal Starts Here-->
-     <button type="button" class="another-button" data-toggle="modal" data-target="#exampleModal">Hire Me</button>
-     <!-- Button trigger modal Ends Here-->
-     
-<!-- Modal Starts Here -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Hire Me</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      
-      <div class="modal-body">
-       <form>
-       
-       <div class="modal-body">
-       
-       <div class="form-group">
-       <label for="name">Your name</label> 
-       <input type="text" name="name" placeholder="Enter your name" class="form-control">
-       </div> 
-       
-       <div class="form-group">
-       <label for="email">Your email</label> 
-       <input type="text" name="email" placeholder="Enter your email" class="form-control">
-       </div> 
-       
-       <div class="form-group">
-       <label for="budget">What is your budget?</label> 
-       <select name="budget" class="form-control">
-       <option value="">Select your budget</option> 
-       <option value="500">$100 to $500 </option> 
-       <option value="1000">$500 to $1000 </option> 
-       <option value="5000">$1000 to $5000 </option> 
-       <option value="5000">$5000+ </option>
-       </select>
-       </div> 
-       
-         <div class="form-group">
-         <label for="message">Your message</label> 
-         <textarea name="message" rows="4" placeholder="Enter your message" class="form-control"></textarea>
-         </div>
-         
-       </div>
-        
-       <div class="modal-footer">
-        <button type="button" class="main-button" data-dismiss="modal">Close</button>
-        <button type="submit" class="another-button">Send Offer</button>
-      </div>
-       
-       </form>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal Ends Here -->     
-</div>
-<!--Tab-One Ends Here-->
-   
-  <!-- Tab-Two Starts Here -->  
-  <div class="tab-pane fade tab-detail" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"> 
-   
-      
-       
-       <div class="skill pt-25">
-         <h6>Front-End</h6>
-           <div class="skill-content">
-             <span>HTML5</span> 
-             <span>CSS3</span> 
-             <span>Bootstrap</span> 
-             <span>SASS</span> 
-             <span>JavaScript</span> 
-             <span>jQuery</span> 
-           </div>
-       </div> 
-         
-        <div class="skill">
-           <h6>Server</h6> 
-           <div class="skill-content">
-            <span>Cpanel</span> 
-            <span>SSL</span> 
-            <span>Domain &amp; Hosting Configuration</span>
-           </div>
-        </div>
-            
-        <div class="skill">
-           <h6>Others</h6> 
-           <div class="skill-content"> 
-               <span>WordPress</span>
-               <span>Github</span> 
-               <span>WEB Image Optimization </span> 
-               <span>Adobe Photoshop</span> 
-               <span>Project Planning</span> 
-               <span>Client Handling</span>
-           </div>
-        </div>
-            
- 
-    
-  </div>
-  <!-- Tab-Two Ends Here -->  
-  
-  <!-- Tab-Three Starts Here -->  
-  <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-    <div class="pt-25">
-        <div class="tab-connect">
-             <div class="tab-connect-info">
-                 <strong>Phone</strong> 
-                 <p>+880 1748 783 582</p>
-             </div> 
-             
-             <div class="tab-connect-info">
-             <strong>Email</strong> 
-             <p>info@mdjahidulislam.com</p>
-             </div> 
-             
-             <div class="tab-connect-info">
-             <strong>Address</strong> 
-             <p>Tejgaon, Dhaka 1215, Bangladesh</p>
-             </div>
-              
-             <div class="tab-connect-info">
-             <ul>
-             
-             <li>
-                 <a href="https://www.facebook.com/jahidulislam05" target="_blank">
-                 <i class="fab fa-facebook-f"></i>
-                 </a>
-             </li> 
-             
-             <li>
-                 <a href="https://www.linkedin.com/in/jahidul-islam5" target="_blank">
-                 <i class="fab fa-linkedin-in"></i>
-                 </a>
-             </li> 
-             
-              <li>
-                 <a href="https://www.instagram.com/devjahid" target="_blank">
-                 <i class="fab fa-instagram"></i>
-                 </a>
-             </li>
-             
-             <li>
-                 <a href="https://github.com/dev-jahid" target="_blank">
-                 <i class="fab fa-github"></i>
-                 </a>
-             </li>
-             
-             </ul>
-             </div>
-        </div>
-    </div>
-     
-     
-    
-  </div>
-  <!-- Tab-Three Ends Here -->
-  
-</div>
-        </div>
-    </div>
-</div>  
-<!--About-Me Ends Here-->   
-   
-<!--Footer Starts Here-->
-    <footer>
-        <div class="container">
-            <div class="row footer">
-                <div class="col-md-6 footer-content">
-                    <h3>About Me</h3>
-                    <p>
-                        I'm a Web Developer, based in Dhaka, Bangladesh. I did my diploma in Computer Engineering. I also underwent several trainings in Web Development at various renowned training institutions. I'm expert in HTML/HTML5, CSS/CSS3, Bootstrap 4, Wordpress Theme Customization, JavaScript and more.
-                    </p>
-                </div>
+              <a href="images/resume.pdf" target="_blank">
+                <button type="button" class="main-button">My Resume</button>
+              </a>
 
-                <div class="col-md-3 footer-content">
-                    <h3>Quick Links</h3>
-                    <div class="links">
-                        <ul>
-                            <li><a href="about.html">About Me</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="portfolio.html">Portfolio</a></li>
-                            <li><a href="contact.html">Contact Me</a></li>
-                        </ul>
+              <!-- Button trigger modal Starts Here-->
+              <button
+                type="button"
+                class="another-button"
+                data-toggle="modal"
+                data-target="#exampleModal"
+              >
+                Hire Me
+              </button>
+              <!-- Button trigger modal Ends Here-->
+
+              <!-- Modal Starts Here -->
+              <div
+                class="modal fade"
+                id="exampleModal"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="exampleModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Hire Me
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
                     </div>
-                </div>
 
-                <div class="col-md-3 footer-content">
-                    <h3>Get in Touch</h3>
-                    <div class="links">
-                        <ul>
-                            <li><a href="#">+880 174 878 3582</a></li>
-                            <li><a href="#">info@mdjahidulislam.com</a></li>
-                            <li><a href="#">Tejgaon. Dhaka - 1215</a></li>
-                            <li>
-                                <div class="footer-connect">
-                                    <div class="tab-connect-info">
-                                        <ul>
-                                            <li>
-                                                <a href="https://www.facebook.com/jahidulislam05" target="_blank">
-                                                    <i class="fab fa-facebook-f"></i>
-                                                </a>
-                                            </li>
+                    <div class="modal-body">
+                      <form>
+                        <div class="modal-body">
+                          <div class="form-group">
+                            <label for="name">Your name</label>
+                            <input
+                              type="text"
+                              name="name"
+                              placeholder="Enter your name"
+                              class="form-control"
+                            />
+                          </div>
 
-                                            <li>
-                                                <a href="https://www.linkedin.com/in/jahidul-islam5" target="_blank">
-                                                    <i class="fab fa-linkedin-in"></i>
-                                                </a>
-                                            </li>
+                          <div class="form-group">
+                            <label for="email">Your email</label>
+                            <input
+                              type="text"
+                              name="email"
+                              placeholder="Enter your email"
+                              class="form-control"
+                            />
+                          </div>
 
-                                            <li>
-                                                <a href="https://www.instagram.com/devjahid" target="_blank">
-                                                    <i class="fab fa-instagram"></i>
-                                                </a>
-                                            </li>
+                          <div class="form-group">
+                            <label for="budget">What is your budget?</label>
+                            <select name="budget" class="form-control">
+                              <option value="">Select your budget</option>
+                              <option value="500">$100 to $500</option>
+                              <option value="1000">$500 to $1000</option>
+                              <option value="5000">$1000 to $5000</option>
+                              <option value="5000">$5000+</option>
+                            </select>
+                          </div>
 
-                                            <li>
-                                                <a href="https://github.com/dev-jahid" target="_blank">
-                                                    <i class="fab fa-github"></i>
-                                                </a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copy-right">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <p class="mb-0">All Rights Reserved &copy; 2020 by
-                                <a href="about.html">Jahidul Islam</a></p>
+                          <div class="form-group">
+                            <label for="message">Your message</label>
+                            <textarea
+                              name="message"
+                              rows="4"
+                              placeholder="Enter your message"
+                              class="form-control"
+                            ></textarea>
+                          </div>
                         </div>
+
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="main-button"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                          <button type="submit" class="another-button">
+                            Send Offer
+                          </button>
+                        </div>
+                      </form>
                     </div>
+                  </div>
                 </div>
+              </div>
+              <!-- Modal Ends Here -->
             </div>
+            <!--Tab-One Ends Here-->
+
+            <!-- Tab-Two Starts Here -->
+            <div
+              class="tab-pane fade tab-detail"
+              id="pills-profile"
+              role="tabpanel"
+              aria-labelledby="pills-profile-tab"
+            >
+              <div class="skill pt-25">
+                <h6>Front-End</h6>
+                <div class="skill-content">
+                  <span>HTML5</span>
+                  <span>CSS3</span>
+                  <span>Bootstrap</span>
+                  <span>SASS</span>
+                  <span>JavaScript</span>
+                  <span>jQuery</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h6>Server</h6>
+                <div class="skill-content">
+                  <span>Cpanel</span>
+                  <span>SSL</span>
+                  <span>Domain &amp; Hosting Configuration</span>
+                </div>
+              </div>
+
+              <div class="skill">
+                <h6>Others</h6>
+                <div class="skill-content">
+                  <span>WordPress</span>
+                  <span>Github</span>
+                  <span>WEB Image Optimization</span>
+                  <span>Adobe Photoshop</span>
+                  <span>Project Planning</span>
+                  <span>Client Handling</span>
+                </div>
+              </div>
+            </div>
+            <!-- Tab-Two Ends Here -->
+
+            <!-- Tab-Three Starts Here -->
+            <div
+              class="tab-pane fade"
+              id="pills-contact"
+              role="tabpanel"
+              aria-labelledby="pills-contact-tab"
+            >
+              <div class="pt-25">
+                <div class="tab-connect">
+                  <div class="tab-connect-info">
+                    <strong>Phone</strong>
+                    <p>+880 1313 924 759</p>
+                  </div>
+
+                  <div class="tab-connect-info">
+                    <strong>Email</strong>
+                    <p>haqueshamima34@gmail.com</p>
+                  </div>
+
+                  <div class="tab-connect-info">
+                    <strong>Address</strong>
+                    <p>68/8-B,Zigatola,Dhanmondi,Dhaka-1209,Bangladesh</p>
+                  </div>
+
+                  <div class="tab-connect-info">
+                    <ul>
+                      <li>
+                        <a
+                          href="https://www.facebook.com/jahidulislam05"
+                          target="_blank"
+                        >
+                          <i class="fab fa-facebook-f"></i>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          href="https://www.linkedin.com/in/jahidul-islam5"
+                          target="_blank"
+                        >
+                          <i class="fab fa-linkedin-in"></i>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a
+                          href="https://www.instagram.com/devjahid"
+                          target="_blank"
+                        >
+                          <i class="fab fa-instagram"></i>
+                        </a>
+                      </li>
+
+                      <li>
+                        <a href="https://github.com/dev-jahid" target="_blank">
+                          <i class="fab fa-github"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Tab-Three Ends Here -->
+          </div>
         </div>
+      </div>
+    </div>
+    <!--About-Me Ends Here-->
+
+    <!--Footer Starts Here-->
+    <footer>
+      <div class="container">
+        <div class="row footer">
+          <div class="col-md-6 footer-content">
+            <h3>About Me</h3>
+            <p>
+              I'm a Web Developer, based in Dhaka, Bangladesh. I did my bachelor
+              in Computer Science and Engineering. I also underwent several
+              trainings in Web Development at various renowned training
+              institutions. I'm expert in HTML/HTML5, CSS/CSS3, Bootstrap 4,
+              Wordpress Theme Customization, JavaScript, Php, Laravel and more.
+            </p>
+          </div>
+
+          <div class="col-md-3 footer-content">
+            <h3>Quick Links</h3>
+            <div class="links">
+              <ul>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-md-3 footer-content">
+            <h3>Get in Touch</h3>
+            <div class="links">
+              <ul>
+                <li><a href="#">+880 1313 924 759</a></li>
+                <li><a href="#">haqueshamima34@gmail.com</a></li>
+                <li>
+                  <a href="#">
+                    68/8-B,Zigatola,Dhanmondi,Dhaka-1209,Bangladesh
+                  </a>
+                </li>
+                <li>
+                  <div class="footer-connect">
+                    <div class="tab-connect-info">
+                      <ul>
+                        <li>
+                          <a
+                            href="https://www.facebook.com/jahidulislam05"
+                            target="_blank"
+                          >
+                            <i class="fab fa-facebook-f"></i>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a
+                            href="https://www.linkedin.com/in/jahidul-islam5"
+                            target="_blank"
+                          >
+                            <i class="fab fa-linkedin-in"></i>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a
+                            href="https://www.instagram.com/devjahid"
+                            target="_blank"
+                          >
+                            <i class="fab fa-instagram"></i>
+                          </a>
+                        </li>
+
+                        <li>
+                          <a
+                            href="https://github.com/dev-jahid"
+                            target="_blank"
+                          >
+                            <i class="fab fa-github"></i>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy-right">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="text-center">
+                <p class="mb-0">
+                  All Rights Reserved &copy; 2024 by
+                  <a href="about.html">Shamima Haque</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
     <!--Footer Ends Here-->
-  
-      
-            
-   
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="js/jquery-3.3.1.slim.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/typed.min.js"></script>
-<script src="js/custom.js"></script>
 
-</body>
-
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
 </html>
-
